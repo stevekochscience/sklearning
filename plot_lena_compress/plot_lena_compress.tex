@@ -28,30 +28,72 @@
                     \centering
                     \includegraphics[width=\textwidth]{original.png}
                     \caption{Original image}
-                    \label{fig:original}
+                    \label{fig:original3}
             \end{subfigure}%
             ~ %add desired spacing between images, e. g. ~, \quad, \qquad etc.
               %(or a blank line to force the subfigure onto a new line)
             \begin{subfigure}[b]{0.3\textwidth}
                     \centering
-                    \includegraphics[width=\textwidth]{compressed.png}
+                    \includegraphics[width=\textwidth]{compressed_3.png}
                     \caption{Binned with kmeans opt.}
-                    \label{fig:compressed}
+                    \label{fig:compressed3}
             \end{subfigure}
             ~ %add desired spacing between images, e. g. ~, \quad, \qquad etc.
               %(or a blank line to force the subfigure onto a new line)
             \begin{subfigure}[b]{0.3\textwidth}
                     \centering
-                    \includegraphics[width=\textwidth]{equal_bins.png}
+                    \includegraphics[width=\textwidth]{equal_bins_3.png}
                     \caption{Equally spaced bins}
-                    \label{fig:equal_bins}
+                    \label{fig:equal_bins3}
             \end{subfigure}
-            \caption{Pictures of animals}\label{fig:images}
+            \caption{colors groups by kmeans, 3 bins}\label{fig:images3}
+            
+             \begin{subfigure}[b]{0.3\textwidth}
+                    \centering
+                    \includegraphics[width=\textwidth]{histogram_3.png}
+                    \caption{histogram}
+                    \label{fig:histogram3}
+            \end{subfigure}
     \end{figure}
 
-	And reference them anywhere in the text like in Figure \ref{fig:my_figure}. You just have to recompile twice to get the numbers 
-	correct. Same thing goes for citations and a bibliography.
-	
+    \begin{figure}
+            \centering
+            \begin{subfigure}[b]{0.3\textwidth}
+                    \centering
+                    \includegraphics[width=\textwidth]{original.png}
+                    \caption{Original image}
+                    \label{fig:original5}
+            \end{subfigure}%
+            ~ %add desired spacing between images, e. g. ~, \quad, \qquad etc.
+              %(or a blank line to force the subfigure onto a new line)
+            \begin{subfigure}[b]{0.3\textwidth}
+                    \centering
+                    \includegraphics[width=\textwidth]{compressed_5.png}
+                    \caption{Binned with kmeans opt.}
+                    \label{fig:compressed5}
+            \end{subfigure}
+            ~ %add desired spacing between images, e. g. ~, \quad, \qquad etc.
+              %(or a blank line to force the subfigure onto a new line)
+            \begin{subfigure}[b]{0.3\textwidth}
+                    \centering
+                    \includegraphics[width=\textwidth]{equal_bins_5.png}
+                    \caption{Equally spaced bins}
+                    \label{fig:equal_bins5}
+            \end{subfigure}
+            
+            \begin{subfigure}[b]{0.3\textwidth}
+                    \centering
+                    \includegraphics[width=\textwidth]{histogram_5.png}
+                    \caption{histogram}
+                    \label{fig:histogram5}
+            \end{subfigure}
+            \caption{colors groups by kmeans, 5 bins}\label{fig:images5}
+    \end{figure}
+\begin{itemize}
 
+    \item	3 bins: Figure \ref{fig:images3}.
+    \item   5 bins: Figure \ref{fig:images5}
+	
+\end{itemize}
 
 \end{document}
